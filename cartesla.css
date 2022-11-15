@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 5px 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    padding: 10px 25px;
+    text-transform: capitalize;
+}
+.wrapper{
+    background: url("images/model-3.jpg") no-repeat center /cover;
+    height:100vh;
+   
+}
+.contect{
+    text-align: center;
+    padding-top: 60px;
+    text-transform: capitalize;
+    position: relative;
+}
+.contect h1{
+    padding: 10px;
+}
+.contect p{
+    padding: 10px;
+}
+.contect p a{
+    color: #000;
+}
+.bottom{ position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 35%;
+    bottom: 60px;
+}
+.images{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vh;
+    width: 40px;
+    top: 90%;
+    left: 670px;
+    position: absolute; 
+
+    animation: animation 1s infinite;
+}
+@keyframes animation{
+    0%{top: 90%;}
+    50%{ top: 91%;}
+}
+
+.bottom p{
+    padding: 10px 50px;
+background-color: #000;
+border-radius: 10px;
+color:#fff;
+margin: 10px;
+}
+
+.bottom span{
+    padding: 10px 50px;
+background-color: #fff;
+border-radius: 10px;
+color: black;
+margin: 10px;}
+
+
+.second-page{
+    background: url("images/model-y.jpg") no-repeat center /cover;
+    height:100vh;
+
+}  
+.bottoms{ 
+    display: flex;
+    justify-content: center;
+    left: 35%;
+    margin-top: 370px;}
+
+.bottoms p{
+    padding: 10px 50px;
+background-color: #000;
+border-radius: 10px;
+color:#fff;
+margin: 10px;
+}
+
+.bottoms span{
+    padding: 10px 50px;
+background-color: #fff;
+border-radius: 10px;
+color: black;
+margin: 10px;}
+.three-page{
+    background:  url("images/model-s.jpg") no-repeat center /cover;
+    height: 100vh;
+}
+
+.four-page{
+    background: url("images/model-x.jpg") no-repeat center /cover;
+    height:100vh;
+   
+}  
+.five-page{
+    background: url("images/solar-panel.jpg") no-repeat center /cover;
+    height:100vh;
+   
+}  
+.six-page{
+    background: url("images/solar-roof.jpg") no-repeat center /cover;
+    height:100vh;
+ 
+}
+.seven-page{
+    background: url("images/accessories.jpg") no-repeat center /cover;
+    height:100vh;
+   
+}
