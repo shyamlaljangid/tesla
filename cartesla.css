@@ -3,6 +3,27 @@
     padding: 0;
     font-family: Roboto;
 }
+.icon 
+{
+    /* position: absolute; */
+    right: 35px;
+    bottom: 55px;
+    position: fixed;
+    display: none; 
+  
+   
+}
+.icon i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px 18px;
+    transition: all 1s ease-out;
+
+}
+.icon i:hover{
+    background-color: #000;
+    color: #fff;
+}
 .heading{
     display: flex;
     justify-content: space-between;
